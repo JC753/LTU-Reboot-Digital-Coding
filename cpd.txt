@@ -9,7 +9,8 @@ Introduction to Web Development
 
 
 What have I learnt?
-In the last couple of days, I've learnt about how the web, internet and its differences. Additionally web development understanding such as front, back and full stack development. More recently, I've learnt how to use GitHub initially, understanding repositories and branches.
+In the last couple of days, I've learnt about how the web, internet and its differences. Additionally web development understanding such as front, back and full stack development. 
+More recently, I've learnt how to use GitHub initially, understanding repositories and branches.
 
 
 How did I use this in practice?
