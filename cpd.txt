@@ -19,3 +19,4 @@ How did I use this in practice?
 
 
 What did I find hard?
+Remembering the concepts
