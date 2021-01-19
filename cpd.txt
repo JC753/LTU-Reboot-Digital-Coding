@@ -2,21 +2,20 @@ CPD - Continuing Professional Development
 
 
 Date of CPD activity
-11/01/2021
+19/01/2021
 
 CPD activity
 Introduction to Web Development
 
 
 What have I learnt?
-In the last couple of days, I've learnt about how the web, internet and its differences. Additionally web development understanding such as front, back and full stack development. 
-More recently, I've learnt how to use GitHub initially, understanding repositories and branches.
+Introduction to CSS and udnerstanding how it works with HTML. Further understanding is needed to grasp the concepts but with the intial tasks, I got the output.
 
 
 How did I use this in practice?
-
+Did the tasks and had no issues with the output i.e. background colour change.
 
 
 
 What did I find hard?
-Remembering the concepts
+Remembering the concepts, general practise and review is needed.
