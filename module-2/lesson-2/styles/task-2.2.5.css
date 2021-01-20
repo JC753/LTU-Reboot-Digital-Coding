@@ -1,3 +1,11 @@
 /* Your code goes below here */
+/* # shows this is an ID */
+#main-heading {
+    color: red;
+}
 
+/* . shows this is a Class */
+.font-blue {
+    color: blue;
+}
 /* Your code goes above here */
