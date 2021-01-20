@@ -1,3 +1,20 @@
 /* Your code goes below here */
+p {
+    columns: #343434;
+    font-size: 24px;
+    border: 1px solid goldenrod;
+}
 
+
+a {
+    color:blueviolet;
+    font-size: 16px;
+    border: 1px solid black;    
+}
+
+ol, ul {
+    color:crimson;
+    font-size: 14px;
+    border: 1px solid purple;
+}
 /* Your code goes above here */
