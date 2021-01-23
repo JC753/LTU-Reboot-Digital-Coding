@@ -3,12 +3,13 @@
 }
 
 .container img {
-    height: 300px;
+    height: 500px;
+    width: 700px;
 }
 .container span{
     position: absolute;
     top: 100px;
     left: 100px;
-    background-color: white
+    background-color: white;
     padding: 10px;
 }
