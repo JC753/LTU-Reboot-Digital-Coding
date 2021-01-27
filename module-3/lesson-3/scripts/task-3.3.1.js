@@ -1,7 +1,6 @@
 function percentageCalculator (number, percentDiscount) {
   let percentDiscount = ( number * percentDiscount ) / 100;
   return percentDiscount;
-
 }
 
   let percentDiscount = 3.5;
