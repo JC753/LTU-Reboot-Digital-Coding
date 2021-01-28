@@ -15,10 +15,10 @@
 
 describeRecipe(shakshuka); */
 
-// my intial attempt above
+// my intial attempt above, there's no space between the output - update needed.
 
-// Luke's method below
-//same thing but after directions, var ingredients used to store
+/* Luke's method below
+forgot to add previous slides knowledge*/
 
 var easyRecipe = {
   recipeTitle: 'Shakshuka',
@@ -35,4 +35,3 @@ var ingredients = easyRecipe.ingredients;
 for (var index = 0; index < ingredients.length; index++)
 
 console.log( ingredients[index]);
-}
