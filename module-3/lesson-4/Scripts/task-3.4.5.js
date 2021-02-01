@@ -14,5 +14,5 @@ for (var index = 0; index < ingredients.length; index++)
 
 console.log( ingredients[index]);
 
-eat: function(letsCook) {
-  console.log("I'm hungry!" + letsCook);
+/* eat: function(letsCook) {
+  console.log("I'm hungry!" + letsCook); } */
