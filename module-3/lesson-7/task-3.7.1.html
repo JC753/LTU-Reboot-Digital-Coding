@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>task-3.7.1</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/module-3/lesson-7/styles/task-3.7.1.css" >
 </head>
 <body>
@@ -11,34 +13,90 @@
   <header>
     <h1>Using JS to filter</h1>
 
-    <div class="selection-container">
-      <button class="selection" data-class="all">ALL</button>
+    <div class="search-container">
+      <label for="filter">Search</label>
+      <input type="text" name="filter">
+      <button class="filter-button" >Filter</button>
+    </div>
+
+    <class="selection-container">
+      <button class="selection active" data-class="all">ALL</button>
       <button class="selection" data-class="cities">Cities</button>
       <button class="selection" data-class="clothing">Clothing</button>
       <button class="selection" data-class="technology">Technology</button>
       <button class="selection" data-class="animals">Animals</button>
-    </div>
+    </class=>
 
   </header> <!-- End of Header -->
 
   <main>
 
     <div class="image-selections">
-    
+
       <div class="images" data-class="cities">
         <img src="https://images.unsplash.com/photo-1559937572-234f88f9b9e7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="">
       </div>
 
+      <div class="images" data-class="cities">
+        <img src="https://images.unsplash.com/photo-1525095240410-9645dea911e4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80" alt="">
+      </div>
+
+      <div class="images" data-class="cities">
+        <img src="https://images.unsplash.com/photo-1550604602-7fae1adbe912?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1055&q=80" alt="">
+      </div>
+
+      <div class="images" data-class="cities">
+        <img src="https://images.unsplash.com/photo-1593000666643-c7b641bbecaf?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80" alt="">
+      </div>
+ 
       <div class="images" data-class="clothing">
         <img src="https://images.unsplash.com/photo-1611176347273-4706ad9a38e6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="">
       </div>
 
+      
+      <div class="images" data-class="clothing">
+        <img src="https://images.unsplash.com/photo-1531329466522-1075f0e4f23a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80" alt="">
+      </div>
+
+      <div class="images" data-class="clothing">
+        <img src="https://images.unsplash.com/photo-1585036156404-f11b0f784515?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="">
+      </div>
+
+      <div class="images" data-class="clothing">
+        <img src="https://images.unsplash.com/photo-1511746315387-c4a76990fdce?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="">
+      </div>
+<!--tech images-->
       <div class="images" data-class="technology">
         <img src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="">
       </div>
 
+      <div class="images" data-class="technology">
+        <img src="https://images.unsplash.com/photo-1530893609608-32a9af3aa95c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80" alt="">
+      </div>
+
+      <div class="images" data-class="technology">
+        <img src="https://images.unsplash.com/photo-1535223289827-42f1e9919769?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="">
+      </div>
+
+      <div class="images" data-class="technology">
+        <img src="https://images.unsplash.com/photo-1512756290469-ec264b7fbf87?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=949&q=80" alt="">
+      </div>
+
+<!--animal images-->
       <div class="images" data-class="animals">
         <img src="https://images.unsplash.com/photo-1591824438708-ce405f36ba3d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="">
+      </div>
+
+      <div class="images" data-class="animals">
+        <img src="https://images.unsplash.com/photo-1564085352725-08da0272627d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="">
+      </div>
+
+      <div class="images" data-class="animals">
+        <img src="https://images.unsplash.com/photo-1580682777666-24a7b3024e24?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="">
+      </div>
+
+      <div class="images" data-class="animals">
+        <img src="https://images.unsplash.com/photo-1588942173353-0c53a1bf9081?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=676&q=80" alt="">
       </div>
 
     </div>
